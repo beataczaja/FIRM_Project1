@@ -34,16 +34,16 @@ nav {
   list-style: none;
 }
 
-footer{
+footer {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 71px;
-  background-color: #4E4E4E;
+  background-color: #4e4e4e;
   color: #fff;
 }
 
-.foot{
+.foot {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,8 +92,8 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
   padding-top: 80px;
 }
 
-.service{
-  background-color: #405D78;
+.service {
+  background-color: #405d78;
 }
 /* --------------------------------------------------headers-------------------------------------------------- */
 .textAreaSec1 {
@@ -112,7 +112,7 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
   font-weight: 700;
 }
 
-.headerPos{
+.headerPos {
   margin-top: 40px;
 }
 
@@ -134,7 +134,7 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
   font-size: 18px;
   font-weight: 700;
   transition-property: background-color, color;
-  transition-duration: 1s;  
+  transition-duration: 1s;
   /* transition-duration: 1s; ---- w .btnOffer daje efekt gdy najeżdżamy myszką na przycisk oraz gdy bierzemy myszkę.
   gdy damy go do :hover, to animacja jest tylko po najechaniu, gdy bierzemy myszkę to nie  */
 }
@@ -144,48 +144,49 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
   color: #000;
 }
 
-.boxes{
+.boxes {
   display: flex;
   flex-wrap: wrap;
   gap: 63px;
   justify-content: center;
 }
 
-.box{
+.box {
   height: 198px;
   width: 194px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   font-size: 24px;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   justify-content: center;
   position: relative;
 }
 
-.box:hover{
+.box:hover {
   transform: scale(1.05);
   transition-duration: 0.5s;
 }
 
-.circleSmall{
+.circleSmall {
   height: 22px;
   width: 22px;
   border-radius: 50%;
-  background-color: #E07A64;
+  background-color: #e07a64;
+  /* parent ma position: relative */
   position: absolute;
   left: -11px;
   top: -11px;
 }
 
-.fabSize{
-font-size: 30px;
-font-weight: 100;
-display: flex;
-gap: 180px;
+.fabSize {
+  font-size: 30px;
+  font-weight: 100;
+  display: flex;
+  gap: 180px;
 }
 
-.fabs{
+.fabs {
   display: flex;
   gap: 18px;
 }
@@ -229,7 +230,3 @@ gap: 180px;
   background-position: center;
   background-size: cover;
 }
-
-
-
-/* -------------------------------------------------- -------------------------------------------------- *
