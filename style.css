@@ -160,7 +160,7 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
   align-items: center;
   flex-wrap: wrap;  
   justify-content: center;
-
+  position: relative;
 }
 
 .box:hover{
@@ -168,6 +168,15 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
   transition-duration: 0.5s;
 }
 
+.circleSmall{
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background-color: #E07A64;
+  position: absolute;
+  left: -11px;
+  top: -11px;
+}
 
 .fabSize{
 font-size: 30px;
