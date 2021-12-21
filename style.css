@@ -3,6 +3,10 @@
   src: url(Roboto-Regular.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Roboto;
 }
