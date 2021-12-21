@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- reset css - używamy cnd zamiast lokalnych plików -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container menu">
+        <div class="logo">LOGO</div>
+        <div>
+          <ul class="menuList">
+            <!--href narazie nie działa-->
+            <li><a href="#o_nas"></a>o nas</li>
+            <li><a href="#oferta"></a>oferta</li>
+            <li></a>kontakt</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="secMain">
+      <div class="shadow">
+        <div class="container main">
+          <div class="textAreaSec1">
+            <p class="headerBig headerLight">
+              Nasza firma oferuje najwyższej jakości produkty.
+            </p>
+            <p class="headerSmall headerLight headerPos">
+              Nie wierz nam na słowo - sprawdź
+              <!-- spytać o margines - dodatkowa klasa czy tutaj style -->
+            </p>
+            <button type="button" class="btnOffer">oferta</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="o_nas" class="secRest">
+      <div class="container">
+        <p class="headerBig headerDark">Nasi specjaliści</p>
+        <div class="innerSection">
+          <div class="employee">
+            <div class="img employeeImg1"></div>
+            <div class="employeeDescFull">
+              <div>
+                <p class="headerSmall headerDark">
+                  Jan Kowalski [dział Ofertowy]
+                </p>
+                <p class="employeeDesc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  vel massa et lacus egestas cursus a non magna. Fusce
+                  scelerisque blandit nunc, id malesuada ex lobortis a. Integer
+                  felis nisi, tempor elementum lorem in, varius pellentesque
+                  ligula. Duis efficitur lacinia enim, non tincidunt libero
+                  ultrices in.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="employee">
+            <div class="img employeeImg2"></div>
+            <div class="employeeDescFull">
+              <div>
+                <p class="headerSmall headerDark">
+                  Anna Nowak [dział Obsługi Klienta]
+                </p>
+                <p class="employeeDesc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  vel massa et lacus egestas cursus a non magna. Fusce
+                  scelerisque blandit nunc, id malesuada ex lobortis a. Integer
+                  felis nisi, tempor elementum lorem in, varius pellentesque
+                  ligula. Duis efficitur lacinia enim, non tincidunt libero
+                  ultrices in.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="oferta" class="secRest service">
+      <div class="container">
+        <p class="headerBig headerLight">Czym zajmuje się nasza firma?</p>
+        <div class="innerSection boxes">
+          <div class="box">Usługa 1 (nowość)</div>
+          <div class="box">Usługa 2</div>
+          <div class="box">Usługa 3</div>
+          <div class="box">Usługa 4</div>
+          <div class="box">Usługa 5</div>
+          <div class="box">Usługa 6</div>
+        </div>
+      </div>
+    </section>
+    <footer class="headerSmall">
+      <div class="container foot">
+        <div>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</div>
+        <div class="fabs">
+          <i class="fab fa-instagram fabSize"></i>
+          <i class="fab fa-facebook-square fabSize"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
