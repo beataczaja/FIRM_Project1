@@ -34,6 +34,15 @@ nav {
   list-style: none;
 }
 
+.menuList > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cursor {
+  cursor: not-allowed;
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -56,7 +65,7 @@ section {
 }
 
 .secMain {
-  height: 100vw;
+  height: 100vh;
   background-image: url(buildings2_1800_1000.jpg);
   background-size: cover;
   background-position: center;
@@ -71,9 +80,9 @@ section {
 opacity działa na wszystkie child, więc również na kolejny div.
 Rozwiązaniem jest kolor rgb z opacity na końcu */
 .shadow {
-  background-color: rgb(0, 0, 0, 0.3);
+  background-color: rgb(0, 0, 0, 0.5);
   width: 100%;
-  height: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
 }
@@ -93,7 +102,8 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
 }
 
 .service {
-  background-color: #405d78;
+  /* background-color: #405d78; */
+  background-color: #31482a;
 }
 /* --------------------------------------------------headers-------------------------------------------------- */
 .textAreaSec1 {
@@ -112,7 +122,7 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
   font-weight: 700;
 }
 
-.headerPos {
+.mg-40 {
   margin-top: 40px;
 }
 
@@ -161,6 +171,7 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
+  text-align: center;
 }
 
 .box:hover {
@@ -172,7 +183,8 @@ Rozwiązaniem jest kolor rgb z opacity na końcu */
   height: 22px;
   width: 22px;
   border-radius: 50%;
-  background-color: #e07a64;
+  /* background-color: #e07a64; */
+  background-color: #e76a15;
   /* parent ma position: relative */
   position: absolute;
   left: -11px;
